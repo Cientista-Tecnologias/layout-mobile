@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.ac.nyw.MainActivity$PlaceholderFragment"
+    android:background="#5befd4">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/endenco_atual"
+        android:text="Endereço Atual"
+        android:textColor="#3b6f10"
+        android:textIsSelectable="true"
+        android:textSize="20dp"
+        android:focusable="false"
+
+        android:enabled="false"
+
+        android:paddingBottom="0dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Alterar"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="Alterar"
+        android:textSize="20dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#0a0a0a"
+        android:onClick="alterar_end"/>
+
+</RelativeLayout>
